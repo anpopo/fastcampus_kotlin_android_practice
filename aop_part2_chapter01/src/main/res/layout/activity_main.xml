@@ -3,49 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
     <TextView
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/height"
-        android:textColor="@color/custom_black" />
+        android:textColor="@color/custom_black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:layout_marginTop="10dp"
+        android:id="@+id/heightEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:layout_marginTop="10dp"
         android:autofillHints="키를 입력하세요"
+        android:inputType="number"
         tools:ignore="LabelFor" />
 
     <TextView
-        android:layout_marginTop="30dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/weight"
-        android:textColor="@color/custom_black" />
+        android:textColor="@color/custom_black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:layout_marginTop="10dp"
+        android:id="@+id/weightEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:layout_marginTop="10dp"
         android:importantForAutofill="no"
+        android:inputType="number"
         tools:ignore="LabelFor" />
 
     <Button
+        android:id="@+id/resultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="@string/check"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textStyle="bold" />
 
 </LinearLayout>
