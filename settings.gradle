@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "fastcampus_kotlin_android_practice"
 include ':app'
 include ':aop_part2_chapter01'
+include ':lotto'
