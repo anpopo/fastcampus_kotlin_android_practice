@@ -50,45 +50,79 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="1"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:background="@drawable/circle_yellow"/>
 
         <TextView
             android:id="@+id/ballNumber2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="2"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:background="@drawable/circle_yellow"/>
 
         <TextView
             android:id="@+id/ballNumber3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="3"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:background="@drawable/circle_yellow"/>
 
         <TextView
             android:id="@+id/ballNumber4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="4"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:background="@drawable/circle_yellow"/>
+
 
         <TextView
             android:id="@+id/ballNumber5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="5"
+            android:gravity="center"
+            android:textColor="@color/white"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:background="@drawable/circle_yellow" />
+
+        <TextView
+            android:id="@+id/ballNumber6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:background="@drawable/circle_yellow"/>
 
 
     </LinearLayout>
