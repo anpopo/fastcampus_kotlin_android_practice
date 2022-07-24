@@ -11,12 +11,19 @@
         android:theme="@style/Theme.Fastcampus_kotlin_android_practice">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Fastcampus_kotlin_android_practice.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DiaryActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Fastcampus_kotlin_android_practice.NoActionBar">
         </activity>
     </application>
 

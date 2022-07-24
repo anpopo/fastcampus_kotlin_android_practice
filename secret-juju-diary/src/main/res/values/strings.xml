@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">secret-juju-diary</string>
+    <string name="diary_title">The Secret JuJu Diary</string>
 </resources>
